@@ -15,7 +15,7 @@
     position: relative;
     height: 100vh;
     min-height: 720px;
-    min-width: 800px;
+    max-height: 800px;
 }
 
 
@@ -153,7 +153,8 @@ h1 {
     background-repeat: no-repeat;
     position: relative;
     min-height: 720px;
-    min-width: 800px;
+    max-height: 800px;
+    height: 100vh;
 }
 
 .recipes__title {
@@ -203,4 +204,20 @@ h1 {
     display: flex;
     flex-direction: row;
     row-gap: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.recipes__video-caption {
+    font-family: "Inter" Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 24px;
+    color: #ffffff;
 }
