@@ -148,7 +148,6 @@ h1 {
 
 .recipes {
     background-image: url(../images/background_recipes.svg);
-    background-position: cover;
     background-color: #0a2750;
     background-repeat: no-repeat;
     position: relative;
