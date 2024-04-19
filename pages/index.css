@@ -102,7 +102,7 @@ h1 {
     z-index: 1;
     }
 
-.background__image {
+.header__background {
     position: absolute;
     top: 0;
     right: 0;
