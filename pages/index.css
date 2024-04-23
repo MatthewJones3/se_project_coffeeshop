@@ -153,7 +153,6 @@ h1 {
     position: relative;
     min-height: 720px;
     max-height: 800px;
-    height: 100vh;
 }
 
 .recipes__title {
@@ -245,7 +244,7 @@ h1 {
 
 .form {
     max-width: 385px;
-    margin-bottom: 120px;
+    margin: 0 auto 120px;
 }
 
 .form__fieldset {
