@@ -39,14 +39,13 @@
     float: right;
     max-width: 660px;
     margin-right: 80px;
-    margin-top: 119px;
 }
 
 .about__paragraph {
     margin-top: 20px;
 }
 
-.circle__container {
+.about__circle {
     width: 426px;
     height: 426px;
     border-radius: 50%;
