@@ -1,303 +1,60 @@
-.page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0;
-    font-size: 16px;
-    line-height: 20px;
-    font-family: Inter, Arial, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    background: #ffffff;
-    background-repeat: no-repeat;
+@import url(../blocks/page.css);
+
+@import url(../blocks/header.css);
+
+@import url(../blocks/recipes.css);
+
+@import url(../blocks/reservation.css);
+
+@import url(../vendor/normalize.css);
+
+.menu {
+    padding: 100px 0 100px;
 }
 
-.header {
-    position: relative;
-    height: 100vh;
-    min-height: 720px;
-    max-height: 800px;
-}
-
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav__logo {
-    position: relative;
-    margin-left: 30px;
-    margin-top: 30px;
-    max-width: 105px;
-    max-height: 39px;
-}
-
-.nav__links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 20px;
-    list-style: none;
-    align-items: flex-end;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.nav__link {
-    margin: 20px;
-}
-
-.header__title {
-    max-width: 729px;
-    margin-left: 80px;
-}
-
-h1 {
-    margin-top: 183px;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 72px;
-    letter-spacing: -0.6px;
-    position: relative;
-    z-index: 2;
-    margin-left: 80px;
-}
-
-.outline {
-    font-family: "Noto-Serif", 'Times New Roman', serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 72px;
-    color: #2f80ed;
-    margin-bottom: 20px;
-}
-
-.header__description {
-    max-width: 683px;
-    font-family: "Noto Serif", 'Times New Roman', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 20px;
-    margin-left: 80px;
-    position: absolute;
-    z-index: 2;
-}
-
-.header__image {
-    max-width: 646px;
-    max-height: 568px;
-    float: right;
-    position: absolute;
-    top: 80px;
-    right: 5px;
-    padding: 0;
-    z-index: 1;
-    }
-
-.header__background {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.header__footer {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 0;
-}
-
-.header__paragraph {
-    padding: 0;
-    margin-bottom: 40px;
-}
-    
-.header__list-item {
-    list-style: none;
-    font-family: "inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #838383;
-    position: relative;
-    margin-left: 80px;
-}
-
-.header__address {
-    margin-right: 80px;
-    z-index: 1;
-    font-family: "inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #838383;
-}
-
-.recipes {
-    background-image: url(../images/background_recipes.svg);
-    background-color: #0a2750;
-    background-repeat: no-repeat;
-    position: relative;
-    min-height: 720px;
-    max-height: 800px;
-}
-
-.recipes__title {
-    max-width: 580px;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    color: #ffffff;
-    column-gap: 24px;
-    margin: 0;
-    padding-left: 80px;
-    padding-top: 100px;
-}
-
-.recipes__subtitle {
-    max-width: 438px;
-    font-family: "Noto Serif", 'Times New Roman', Serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #ffffff;  
-    margin-top: 24px;
-    margin-left: 80px;
-}
-
-.recipes__image {
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.recipes__videos {
-    display: flex;
-    flex-direction: row;
-    row-gap: 40px;
-    justify-content: center;
-    margin-top: 80px;
-}
-
-.recipes__iframe {
-    max-width: 480px;
-    max-height: 273px;
-    display: flex;
-    flex-direction: row;
-    row-gap: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border: 0;
-}
-
-.recipes__video-caption {
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 24px;
-    color: #ffffff;
-}
-
-.reservation {
-    padding: 100px 0 120px;
-    background-image: url(../images/background_reservation.svg);
-    background-color: #D9e7ff;
-    background-repeat: no-repeat;
-}
-
-.reservation__title {
-    margin-top: 100px;
-    margin-bottom: 80px;
+.menu__title {
     text-align: center;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
+    margin: 0 0 24px;
+}
+.menu__subtitle {
+    text-align: center;
+    margin: 0 0 100px;
 }
 
-.reservation__form {
-    margin: 0 auto;
-}
-
-.form {
-    max-width: 385px;
-    margin: 0 auto 120px;
-}
-
-.form__fieldset {
-    padding: 0;
-    margin: 0;
-    border: none;
-}
-
-.form__label {
-    display: block;
-    margin-bottom: 32px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.form__label_type_checkbox {
+.menu__cards {
     display: flex;
     justify-content: center;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    border-radius: 2px;
-}
-
-.form__check {
-    height: 20px;
-    width: 20px;
-    margin-right: 12px;
-}
-
-.form__input {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 100px;
     padding: 0;
-    margin-top: 8px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #838383;
-    height: 60px;
+    margin: 0;
+    list-style-type: none;
+
 }
 
-.form__button {
-    width: 100%;
-    padding: 0;
-    margin-bottom: 32px;
-    height: 60px;
+.card {
+    width: 540px;
 }
+
+.card__title {
+    margin: 0 0 32px;
+}
+
+.card__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card__list-item {
+    display: flex;
+}
+
+.card__list-divider {
+    border-bottom: 1px solid black;
+    flex-grow: 1;
+}
+
