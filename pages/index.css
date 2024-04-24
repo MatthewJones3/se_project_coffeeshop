@@ -8,53 +8,49 @@
 
 @import url(../vendor/normalize.css);
 
-.menu {
-    padding: 100px 0 100px;
+@import url(../blocks/menu.css);
+
+.about {
+    background-color: #0a2850;
 }
 
-.menu__title {
-    text-align: center;
-    margin: 0 0 24px;
-}
-.menu__subtitle {
-    text-align: center;
-    margin: 0 0 100px;
-}
-
-.menu__cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 100px;
-    padding: 0;
+.about__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color:white;
+    padding-left: 80px;
+    padding-top: 100px;
     margin: 0;
-    list-style-type: none;
-
+    max-width: 251px;
 }
 
-.card {
-    width: 540px;
-}
-
-.card__title {
-    margin: 0 0 32px;
-}
-
-.card__list {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+.about__content {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color:white;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    float: right;
+    max-width: 660px;
+    margin-right: 80px;
+    margin-top: 119px;
 }
 
-.card__list-item {
-    display: flex;
+.about__paragraph {
+    margin-top: 20px;
 }
 
-.card__list-divider {
-    border-bottom: 1px solid black;
-    flex-grow: 1;
+.circle__container {
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    color: #2f80ed;
+    z-index: -1;
+    
 }
-
