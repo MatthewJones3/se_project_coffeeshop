@@ -5,6 +5,8 @@
     background-color: #fff;
     background-size: cover;
     background-position: center;
+    position: relative;
+    z-index: 2;
 }
 
 .menu__title {
