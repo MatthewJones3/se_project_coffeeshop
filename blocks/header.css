@@ -3,6 +3,7 @@
     height: 100vh;
     min-height: 720px;
     max-height: 800px;
+    background-image: url(../images/background_header.svg)
 }
 
 
@@ -31,10 +32,14 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    color: black;
+    text-decoration: none;
 }
 
 .nav__link {
     margin: 20px;
+    text-decoration: none;
+    color: #000;
 }
 
 .header__title {
