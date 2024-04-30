@@ -1,5 +1,5 @@
 .reservation {
-    padding: 100px 0 120px;
+    padding: 100px 0 100px;
     background-image: url(../images/background_reservation.svg);
     background-color: #D9e7ff;
     background-repeat: no-repeat;
@@ -78,4 +78,11 @@
     padding: 0;
     margin-bottom: 32px;
     height: 60px;
+    opacity: 1;
+    background-color: #2f80ed;
+    transition: color 0.3s ease-in-out;
+}
+
+.form__button:hover {
+    opacity: 0.7;
 }

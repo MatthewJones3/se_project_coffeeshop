@@ -5,6 +5,7 @@
     position: relative;
     min-height: 720px;
     max-height: 800px;
+    padding-bottom: 200px;
 }
 
 .recipes__title {
