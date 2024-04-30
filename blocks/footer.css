@@ -3,7 +3,8 @@
 }
 
 .footer__content {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__logo {
@@ -25,6 +26,7 @@
     max-width: 105px;
     max-height: 16px;
     margin-bottom: 20px;
+    padding-top: 40px;
 }
 
 .footer__list {
