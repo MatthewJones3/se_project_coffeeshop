@@ -1,7 +1,7 @@
 @keyframes pulsate {
     from {opacity: 0;}
     50% {opacity: 0.6}
-    to {opacity: 0;}
+    to {opacity: 1.2;}
 }
 
 .about {
@@ -32,9 +32,7 @@
     font-size: 20px;
     line-height: 30px;
     color:white;
-    float: right;
     max-width: 660px;
-    margin-right: 80px;
     z-index: 1;
     margin-top: 119px;
     margin-right: 80px;
@@ -44,6 +42,7 @@
 
 .about__paragraph {
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .about__circle {
@@ -53,9 +52,8 @@
     background-color: #2f80ed;
     z-index: 0;
     position: absolute;
-    margin-top: -152px;
-    margin-left: -129px;
-    animation: pulsate 1.3s ease-in-out infinite;
+    top: -152px;
+    left: -129px;
 }
 
 .about__circle_animation_blurred {

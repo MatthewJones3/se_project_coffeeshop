@@ -1,3 +1,5 @@
+/* I've corrected most things listed on the review, though some things are telling me to do the opposite of what the tutor/brief told me to do. Slight confusion there */
+
 .footer {
     background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
@@ -23,10 +25,8 @@
     color: #fff;
     margin-left: auto;
     margin-right: 80px;
-    max-width: 105px;
-    max-height: 16px;
     margin-bottom: 20px;
-    padding-top: 40px;
+    margin-top: 0;
 }
 
 .footer__list {
@@ -42,7 +42,7 @@
     margin-left: auto;
     color: #fff;
     margin-right: 80px;
-    max-width: 105px;
+    margin: 0;
 }
 
 .footer__list-item {
