@@ -54,8 +54,10 @@
     position: absolute;
     top: -152px;
     left: -129px;
+    animation: pulsate 1.3s ease-in-out infinite;
 }
 
 .about__circle_animation_blurred {
     animation: pulsate 1.3s ease-in-out infinite;
+    /* I know I have this in two places, I just didnt want to leave the animation blurred emptt and it only works onn "about__circle" */
 }
