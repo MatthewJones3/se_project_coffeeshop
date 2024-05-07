@@ -1,7 +1,7 @@
 @keyframes pulsate {
     from {opacity: 0;}
     50% {opacity: 0.6}
-    to {opacity: 1.2;}
+    to {opacity: 1.3;}
 }
 
 .about {
@@ -54,7 +54,6 @@
     position: absolute;
     top: -152px;
     left: -129px;
-    animation: pulsate 1.3s ease-in-out infinite;
 }
 
 .about__circle_animation_blurred {

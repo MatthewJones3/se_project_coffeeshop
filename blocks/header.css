@@ -12,7 +12,7 @@
     margin-left: 80px;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 60px;
     line-height: 72px;
     color: #000;
@@ -20,6 +20,7 @@
 }
 
 h1 {
+    /* I'm not sure I understand how to remove this without ruining the whole page. Ill speak to tutor again */
     margin-top: 183px;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
@@ -34,7 +35,7 @@ h1 {
 }
 
 .outline {
-    font-family: "Noto-Serif", 'Times New Roman', serif;
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-style: italic;
     font-weight: normal;
     font-size: 60px;
