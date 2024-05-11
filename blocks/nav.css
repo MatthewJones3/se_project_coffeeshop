@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 30px;
     padding-left: 0;
     list-style: none;
     align-items: flex-end;
@@ -30,9 +29,7 @@
     transition: color 0.3s ease-in-out;
 }
 
-.nav__links:hover {
-    color: #2f80ed;
-}
+/* took this hover out and the margin in the .nav__links selector, as suggested */
 
 .nav__link {
     margin-right: 20px;

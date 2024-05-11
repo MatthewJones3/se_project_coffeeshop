@@ -1,4 +1,5 @@
 /* in the review notes, I handled most corrections, but there are a few things noted that tell me to correspond with the brief that already correspond. Tutor given opposite feedback on a couple of things. Please let me know if I should change the last few review notes that they told me are correct already */
+@import url(../vendor/normalize.css);
 
 @import url(../blocks/page.css);
 
@@ -7,8 +8,6 @@
 @import url(../blocks/recipes.css);
 
 @import url(../blocks/reservation.css);
-
-@import url(../vendor/normalize.css);
 
 @import url(../blocks/menu.css);
 

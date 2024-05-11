@@ -1,7 +1,10 @@
 @keyframes pulsate {
     from {opacity: 0;}
     50% {opacity: 0.6}
-    to {opacity: 1.3;}
+    to {opacity: 1.3;
+    transform: scale(1.3);
+}
+
 }
 
 .about {
@@ -41,7 +44,7 @@
 }
 
 .about__paragraph {
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -58,5 +61,5 @@
 
 .about__circle_animation_blurred {
     animation: pulsate 1.3s ease-in-out infinite;
-    /* I know I have this in two places, I just didnt want to leave the animation blurred emptt and it only works onn "about__circle" */
+    /* Took out of about__circle and just place here as instructed */
 }
