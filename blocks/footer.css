@@ -1,81 +1,80 @@
-/* I've corrected most things listed on the review, though some things are telling me to do the opposite of what the tutor/brief told me to do. Slight confusion there */
-
 .footer {
-    background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
 .footer__content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
 }
 
 .footer__logo {
-    max-width: 105px;
-    max-height: 39px;
-    padding-top: 0px;
-    padding-left: 80px;
+  max-width: 105px;
+  max-height: 39px;
+  padding-top: 0px;
+  padding-left: 80px;
 }
 
 .footer__social-heading {
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #fff;
-    margin-left: auto;
-    margin-right: 80px;
-    margin-bottom: 20px;
-    margin-top: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__list {
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    color: #fff;
-    margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  color: #fff;
+  margin: 0;
 }
 
 .footer__list-item {
-   margin-bottom: 0;
+  padding-bottom: 16px;
 }
 
 .footer footer__list-item {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
-    max-width: 16px;
-    max-height: 16px;
-    margin-right: 10px;
+  max-width: 16px;
+  max-height: 16px;
+  margin-right: 10px;
 }
 
 .footer__social-link {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
 }
 
 .footer__social-link:hover {
-    color: #c1c1c1;
+  color: #c1c1c1;
 }
 
 .footer__copyright {
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    padding-bottom: 60px;
-    margin-left: 80px;
-    color: #fff;
-    margin-top: 0;
-    margin-bottom: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 60px;
+  margin-left: 80px;
+  color: #fff;
+  margin-top: 108px;
+  margin-bottom: 0;
 }
