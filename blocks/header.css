@@ -100,14 +100,3 @@
   position: relative;
   margin-left: 80px;
 }
-
-.header__address {
-  margin-right: 80px;
-  z-index: 1;
-  font-family: "inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-}

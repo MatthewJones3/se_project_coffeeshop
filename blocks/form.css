@@ -47,6 +47,8 @@
   border-width: 1px;
   border-radius: 4px;
   padding-left: 20px;
+  border-style: none;
+  border-color: transparent;
 }
 
 .form__input::placeholder {
