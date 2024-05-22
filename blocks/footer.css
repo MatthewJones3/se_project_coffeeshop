@@ -46,8 +46,8 @@
   padding-bottom: 16px;
 }
 
-.footer footer__list-item {
-  margin-bottom: 0;
+.footer__list-item:last-child {
+  padding-bottom: 0;
 }
 
 .footer__social-icon {

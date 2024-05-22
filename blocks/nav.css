@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding-right: 60px;
+  padding-right: 80px;
 }
 
 .nav__logo {
